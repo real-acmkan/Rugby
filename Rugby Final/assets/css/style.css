@@ -421,10 +421,6 @@ Extra height css
 .m-top-10 {
     margin-top: 10px;
 }
-.m-top-20 {
-    margin-top: 20px;
-    margin-right: 80px;
-}
 .m-top-30 {
     margin-top: 30px;
 }
@@ -1265,11 +1261,16 @@ work Section style
 /*Footer section*/
 
 .widget_ab_item_text h6{
-    margin-right: 15px;
+    margin-left: 550px;
+    position: absolute;
+    bottom: 20%;
+}
+.widget_ab_item_text p{
+    margin-left: 480px;
 }
 .widget_item h5{
     font-weight: 700;
-    margin-left: 400px;
+    margin-left: 540px;
 }
 .widget_item .btn:hover{
     background-color: #3f92d1;
@@ -1286,10 +1287,13 @@ work Section style
 }
 .widget_ab_item .item_icon,
 .widget_latst_item .item_icon{
-    float: left;
+    float: bottom;
     width: 20%;
     display: inline-block;
-    margin-right: 15px;
+    margin-left: 530px;
+    position: absolute;
+    bottom: 33%;
+
 }
 .widget_ab_item .widget_ab_item_text,
 .widget_latst_item .widget_latst_item_text {
@@ -1297,10 +1301,12 @@ work Section style
     width: 70%;
 }
 .widget_ab_item .item_icon{
-    float: left;
+    float:  bottom;
     width: 10%;
     display: inline-block;
-    margin-right: 15px;
+    margin-left: 530px;
+    position: absolute;
+    bottom: 33%;
 }
 .widget_ab_item .widget_ab_item_text {
     display: inline-block;
