@@ -19,7 +19,7 @@ function myFunction() {
 
   saveButton.addEventListener("click", function() {
     const textToSave = inputTextField.value;
-    console.log("I am going to save " + textToSave + " to Firestore");
+    console.log("Saving " + textToSave + " to Firestore");
     docRef.set({
       gameScore: textToSave
     }).then(function() {
@@ -29,4 +29,41 @@ function myFunction() {
       console.log("Got an error: ", error);
     });
   })
+}
+
+
+function fieldcheck() {
+
+  var field = document.getElementById('service');
+  var operator = document.getElementById('budget');
+  field.onchange = function () { fieldcheck(); }
+  operator.onchange = function () { fieldcheck(); }
+  fieldcheck();
+
+    if (field.value == '9:00am-9:20am') {
+        for (i = 0; i < operator.options.length; ++i) {
+            if (operator.options[i].value != 'SB 1 vs SB 4') {
+                operator.options[i].disabled = true;
+            }
+        };
+        operator.value = 'SB 1 vs SB 4';
+    } else {
+        for (i = 0; i < operator.options.length; ++i) {
+            operator.options[i].disabled = false;
+        };
+    }
+    /*
+    if (field.value == '')  {
+      for (i = 0; i < operator.options.length; ++i) {
+        if (operator.options[i].value != '')  {
+          operator.options[i].disabled = true;
+        }
+      };
+      operator.value = '';
+    } else {
+        for (i = 0; i < operator.options.length; ++i) {
+          operator.options[i].disabled = false;
+        };
+    }
+    */
 }

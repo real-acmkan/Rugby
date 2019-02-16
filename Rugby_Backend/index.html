@@ -48,25 +48,25 @@
 				</div>
 
 				<div class="wrap-input100 input100-select">
-					<span class="label-input100">Date</span>
+					<span class="label-input100">Time</span>
 					<div>
-						<select class="selection-2" name="service">
-							<option>Choose a Day</option>
-							<option>May 11th</option>
-							<option>May 12th</option>
+						<select class="selection-2" name="service" id="service" onchange="fieldcheck();">
+							<option value="time">Choose a time</option>
+							<option value="1">9:00am-9:20am</option>
+							<option value="2">9:20am-9:40am</option>
 						</select>
 					</div>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 input100-select">
-					<span class="label-input100">Budget</span>
+					<span class="label-input100">Game</span>
 					<div>
-						<select class="selection-2" name="budget">
-							<option>Choose a game</option>
-							<option>Example</option>
-							<option>Example</option>
-							<option>Example</option>
+						<select class="selection-2" name="budget" id="budget" onchange="fieldcheck();">
+							<option value="default">Choose a game</option>
+							<option value="game1">SB 1 vs SB 4</option>
+							<option value="game2">SB 12 vs SB 13</option>
+							<option value="game3">JB 5 vs JB 8</option>
 						</select>
 					</div>
 					<span class="focus-input100"></span>
