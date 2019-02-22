@@ -73,15 +73,15 @@
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Score is required">
-					<span class="label-input100">Score</span>
-					<textarea class="input100" name="message" placeholder="Score format: score of first team - score of second"></textarea>
+					<span class="label-input100" id="gameScore">Score</span>
+					<textarea class="input100" name="message" id="lastestGameScore" placeholder="Score format: score of first team - score of second"></textarea>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
-						<button  class="contact100-form-btn" onclick="myFunction();">
+						<button  class="contact100-form-btn" name="saveButton" id="saveButton" onclick="myFunction();">
 							<span>
 								Submit
 								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
@@ -97,8 +97,9 @@
 
 	<div id="dropDownSelect1"></div>
 
-	<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+	<!------------------------------------------------------------------------------------->
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
   <script src="./app.js"></script>
 
 <!--===============================================================================================-->
