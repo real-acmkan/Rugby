@@ -33,14 +33,3 @@ function myFunction() {
     });
   })
 }
-
-
-function fieldcheck() {
-  var op = document.getElementById("service").getElementsByTagName("option");
-  for (var i = 0; i < op.length; i++) {
-  // lowercase comparison for case-insensitivity
-  (op[i].value.toLowerCase() == "9:00am-9:20am")
-    ? op[i].disabled = true
-    : op[i].disabled = false ;
-  }
-}

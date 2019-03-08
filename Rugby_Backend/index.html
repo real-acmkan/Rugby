@@ -50,7 +50,7 @@
 				<div class="wrap-input100 input100-select">
 					<span class="label-input100">Time</span>
 					<div>
-						<select class="selection-2" name="service" id="service" onchange="fieldcheck();">
+						<select class="selection-2" name="service" id="service">
 							<option value="time">Choose a time</option>
 							<option value="1">9:00am-9:20am</option>
 							<option value="2">9:20am-9:40am</option>
@@ -62,7 +62,7 @@
 				<div class="wrap-input100 input100-select">
 					<span class="label-input100">Game</span>
 					<div>
-						<select class="selection-2" name="budget" id="budget" onchange="fieldcheck();">
+						<select class="selection-2" name="budget" id="budget">
 							<option value="default">Choose a game</option>
 							<option value="game1">SB 1 vs SB 4</option>
 							<option value="game2">SB 12 vs SB 13</option>
@@ -100,11 +100,11 @@
 	<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
 	<!------------------------------------------------------------------------------------->
   <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
-	<!--------------------------------------------------------------------------------------->
-  <script src="./app.js"></script>
-
+<!--=========================================================================================-->
+	<script src="./app.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
@@ -122,7 +122,6 @@
 	<script src="vendor/daterangepicker/moment.min.js"></script>
 	<script src="vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-	<script src="js/main.js"></script>
 
 </body>
 </html>

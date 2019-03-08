@@ -13,10 +13,10 @@
             else {
                 $(this).removeClass('has-val');
             }
-        })    
+        })
     })
-  
-  
+
+
     /*==================================================================
     [ Validate ]*/
     var name = $('.validate-input input[name="name"]');
@@ -44,6 +44,9 @@
         }
 
         return check;
+        if((check) === 'true'){
+          myFunction();
+        }
     });
 
 
@@ -64,7 +67,7 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
-    
-    
+
+
 
 })(jQuery);
