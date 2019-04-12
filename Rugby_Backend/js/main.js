@@ -44,9 +44,7 @@
         }
 
         return check;
-        if((check) === 'true'){
-          myFunction();
-        }
+        
     });
 
 
