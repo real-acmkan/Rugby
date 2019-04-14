@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Soon</title>
+	<title>View Scores</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
@@ -20,7 +20,10 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-
+	<!-- Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+	<!-- Firestore -->
+	<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -44,7 +47,7 @@
 							<nav class="fh5co-nav" role="navigation">
 								<div id="fh5co-logo"><strong>View Game Scores</strong></div>
 							</nav>
-							<h1>Game Score: </h1>
+							<h1 id="gameScore">Game Score: </h1>
 							<h2>Fetch game scores in realtime!</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
 							<div class="row">
@@ -54,7 +57,7 @@
 										<div class="col-md-12 col-md-offset-0">
 											<div class="form-group">
 												<input type="text" class="form-control" id="email" placeholder="Game ID">
-												<button type="submit" class="btn btn-primary">Fetch</button>
+												<button type="submit" class="btn btn-primary" id="loadButton">Fetch</button>
 											</div>
 										</div>
 									</form>
@@ -75,6 +78,8 @@
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 
+	<!-- App -->
+	<script src="./app.js"></script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -94,16 +99,16 @@
 
     // default example
     simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
+        year: 2019,
+        month: 5,
+        day: 12
     });
 
     //jQuery example
     $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
+        year: 2019,
+        month: 5,
+        day: 12,
         enableUtc: false
     });
 </script>
