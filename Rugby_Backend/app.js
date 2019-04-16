@@ -16,6 +16,7 @@ function myFunction() {
     var firestore = firebase.firestore();
     // End of Firebase Initialization
 
+
     var docRef = firestore.doc("samples/gameData");
     const outputHeader = document.querySelector("#gameScore");
     const inputTextField = document.querySelector("#lastestGameScore");
