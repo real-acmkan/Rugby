@@ -1,39 +1,794 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
-<style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s11{border-left: none;border-right: none;background-color:#9cc2e5;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:center;font-weight:bold;color:#000000;font-family:'docs-Calibri',Arial;font-size:16pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s16{border-right: none;background-color:#ffffff;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:9pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s27{border-right:1px SOLID #000000;background-color:#ffffff;}.ritz .waffle .s6{border-right: none;background-color:#9cc2e5;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9cc2e5;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ff0000;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s13{border-left: none;border-right: none;background-color:#ffffff;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:9pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s2{border-bottom:2px SOLID #000000;border-right:2px SOLID #000000;background-color:#ffffff;text-align:center;font-weight:bold;color:#000000;font-family:'docs-Calibri',Arial;font-size:16pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s19{border-left: none;border-right: none;background-color:#ed7d31;text-align:center;font-weight:bold;color:#000000;font-family:'docs-Calibri',Arial;font-size:8pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s21{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:center;font-weight:bold;color:#000000;font-family:'docs-Calibri',Arial;font-size:8pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s22{border-left: none;border-right: none;background-color:#9cc2e5;text-align:center;font-weight:bold;color:#000000;font-family:'docs-Calibri',Arial;font-size:8pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s0{border-bottom:2px SOLID #000000;border-right:2px SOLID #000000;background-color:#ffffff;text-align:center;font-weight:bold;color:#000000;font-family:'docs-Calibri',Arial;font-size:18pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s18{border-left: none;border-right: none;background-color:#ff0000;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s17{border-right: none;background-color:#ffc000;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:9pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s25{border-left: none;border-right: none;background-color:#ff0000;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:8pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s14{border-left: none;border-right: none;background-color:#ffc000;text-align:center;font-weight:bold;color:#000000;font-family:'docs-Calibri',Arial;font-size:8pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s20{border-left: none;border-right: none;background-color:#ed7d31;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:9pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s8{border-right: none;background-color:#ffffff;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s15{border-left: none;border-right: none;background-color:#ffc000;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:9pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s24{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s7{border-left: none;border-right: none;background-color:#ffc000;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s23{border-left: none;background-color:#ff0000;text-align:center;font-weight:bold;color:#000000;font-family:'docs-Calibri',Arial;font-size:8pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s10{border-left: none;background-color:#ffffff;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s12{border-left: none;border-right: none;background-color:#ffffff;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s26{border-left: none;border-right: none;background-color:#9cc2e5;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:8pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s9{border-left: none;border-right: none;background-color:#ed7d31;text-align:center;color:#000000;font-family:'docs-Calibri',Arial;font-size:11pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:0px 3px 0px 3px;}</style><div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-origin-ltr"></th><th id="588081356C0" style="width:144px" class="column-headers-background">A</th><th id="588081356C1" style="width:235px" class="column-headers-background">B</th><th id="588081356C2" style="width:235px" class="column-headers-background">C</th><th id="588081356C3" style="width:243px" class="column-headers-background">D</th><th id="588081356C4" style="width:235px" class="column-headers-background">E</th><th id="588081356C5" style="width:235px" class="column-headers-background">F</th></tr></thead><tbody><tr style='height:19px;'><th id="588081356R0" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">1</div></th><td class="s0" dir="ltr" colspan="6">CLEARWATER CUP - HIGH SCHOOL 7&#39;S TOURNAMENT - SATURDAY, MAY 11, 2019</td></tr><tr style='height:19px;'><th id="588081356R1" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">2</div></th><td class="s1">TIME</td><td class="s2">FIELD 1</td><td class="s3">FIELD 2</td><td class="s3">FIELD 3</td><td class="s3">FIELD 4</td><td class="s3">FIELD 5</td></tr><tr style='height:19px;'><th id="588081356R2" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">3</div></th><td class="s1">9am - 9:20am</td><td class="s4">SG 1 vs SG 5</td><td class="s4">SG 3 vs SG 4</td><td class="s4">SG 6 vs SG 10</td><td class="s4">SG 8 vs SG 9 </td><td class="s4">SG 11 vs SG 15</td></tr><tr style='height:19px;'><th id="588081356R3" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">4</div></th><td class="s1">9:20am-9:40am</td><td class="s4">SG 13 vs SG 14</td><td class="s4">SG 16 vs SG 20</td><td class="s4">SG 18 vs SG 19</td><td class="s5">SB 2 vs SB 4</td><td class="s5">SB 3 vs SB 5</td></tr><tr style='height:19px;'><th id="588081356R4" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">5</div></th><td class="s1">9:40am-10am</td><td class="s5">SB 7 vs SB 9</td><td class="s5">SB 8 vs SB 10</td><td class="s5">SB 12 vs SB 14 </td><td class="s5">SB 13 vs SB 15</td><td class="s5">SB 17 vs SB 19</td></tr><tr style='height:19px;'><th id="588081356R5" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">6</div></th><td class="s1">10am-10:20am</td><td class="s6">SB 18 vs SB 20</td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JB 1st Pool E vs 1st Pool F   <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 121)</span></div></td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 242px; left: -3px;">JB 1st Pool E vs 1st Pool F   <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 122)</span></div></td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JB 1st Pool E vs 1st Pool F   <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 123)</span></div></td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JB 1st Pool E vs 1st Pool F   <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 124)</span></div></td></tr><tr style='height:19px;'><th id="588081356R6" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">7</div></th><td class="s8">10:20am-10:40am</td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 125)</span></div></td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 126)</span></div></td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 242px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 127)</span></div></td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 128)</span></div></td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 129)</span></div></td></tr><tr style='height:19px;'><th id="588081356R7" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">8</div></th><td class="s8">10:40am-11am</td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 130)</span></div></td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 131)</span></div></td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 242px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 132)</span></div></td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 133)</span></div></td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 134)</span></div></td></tr><tr style='height:19px;'><th id="588081356R8" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">9</div></th><td class="s8">11am-11:20am</td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 135)</span></div></td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 136)</span></div></td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 242px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 137)</span></div></td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 138)</span></div></td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 139)</span></div></td></tr><tr style='height:19px;'><th id="588081356R9" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">10</div></th><td class="s10 softmerge"><div class="softmerge-inner" style="width: 146px; left: -6px;">11:20am- 11:40am</div></td><td class="s4">SG 8 vs SG 10</td><td class="s4">SG 12 vs SG 14</td><td class="s4">SG 13 vs SG 15</td><td class="s4">SG 17 vs SG 19</td><td class="s4">SG 18 vs SG 20</td></tr><tr style='height:19px;'><th id="588081356R10" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">11</div></th><td class="s1">12noon-12:20pm</td><td class="s1"></td><td class="s8"></td><td class="s11 softmerge"><div class="softmerge-inner" style="width: 271px; left: -32px;">SB 1st Pool M vs SB 1st Pool N <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 146)</span></div></td><td class="s11 softmerge"><div class="softmerge-inner" style="width: 470px; left: -3px;">SB 1st Pool O vs 1st Pool P <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 147)</span></div></td><td class="s10"></td></tr><tr style='height:19px;'><th id="588081356R11" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">12</div></th><td class="s12 softmerge"><div class="softmerge-inner" style="width: 382px; left: -6px;">12:20pm- 12:40pm</div></td><td class="s10"></td><td class="s13"></td><td class="s14 softmerge"><div class="softmerge-inner" style="width: 273px; left: -34px;">JB FINAL Winner game 121 vs Winner game122</div></td><td class="s15 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JB Loser game 123 vs Loser Game 124</div></td><td class="s14 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JB BRONZE Loser game 121 vs Loser game 122</div></td></tr><tr style='height:19px;'><th id="588081356R12" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">13</div></th><td class="s1">12:40pm -1:00pm</td><td class="s1"></td><td class="s16"></td><td class="s7 softmerge"><div class="softmerge-inner" style="width: 252px; left: -13px;">JB <span style="font-size:9pt;font-family:Calibri,Arial;color:#000000;">Winner game 123 vs Winner game 124</span></div></td><td class="s15 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JB Winner game 127 vs Winner game 128</div></td><td class="s15 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JB Winner game 125 vs Winner game 126</div></td></tr><tr style='height:19px;'><th id="588081356R13" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">14</div></th><td class="s1">1:00pm-1:20pm</td><td class="s1"></td><td class="s1"></td><td class="s17">JB Loser game 125 vs Loser game 126</td><td class="s9 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG Loser game 135 vs Loser game 136</div></td><td class="s15 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JB Loser game 127 vs Loser game 128</div></td></tr><tr style='height:19px;'><th id="588081356R14" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">15</div></th><td class="s1">1:20pm-1:40pm</td><td class="s1"></td><td class="s8"></td><td class="s18 softmerge"><div class="softmerge-inner" style="width: 251px; left: -12px;">SG 1st Pool I vs 1st Pool J <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 155)</span></div></td><td class="s18 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">SG 1st Pool I vs 1st Pool J <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 156)</span></div></td><td class="s19 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JG BRONZE Loser game 129 vs Loser Game 130</div></td></tr><tr style='height:19px;'><th id="588081356R15" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">16</div></th><td class="s1">1:40pm-2pm</td><td class="s1"></td><td class="s8"> </td><td class="s19 softmerge"><div class="softmerge-inner" style="width: 242px; left: -3px;">JG Final Winner game 129 vs Winner Game 130</div></td><td class="s20 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG Winner game 131 vs Winner game 132</div></td><td class="s20 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JG Loser game 131 vs Loser game 132</div></td></tr><tr style='height:19px;'><th id="588081356R16" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">17</div></th><td class="s1">2pm-2:20pm</td><td class="s1"></td><td class="s8"></td><td class="s20 softmerge"><div class="softmerge-inner" style="width: 251px; left: -12px;">JG Winner game 133 vs Winner game 134</div></td><td class="s20 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">JG Loser game 133 vs Loser game 134</div></td><td class="s20 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">JG Winner game 135 vs Winner game 136</div></td></tr><tr style='height:19px;'><th id="588081356R17" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">18</div></th><td class="s1">2:20pm - 2:40pm</td><td class="s1"></td><td class="s1"></td><td class="s4">SG 2nd Pool I vs 2nd Pool J</td><td class="s4">SG 2nd Pool K vs 2nd Pool L</td><td class="s4">SG 3rd Pool I vs 3rd Pool J</td></tr><tr style='height:19px;'><th id="588081356R18" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">19</div></th><td class="s1">2:40-3pm</td><td class="s1"></td><td class="s1"></td><td class="s4">SG 3rd Pool K vs 3rd Pool L</td><td class="s4">SG 4th Pool I vs 4th Pool J</td><td class="s4">SG 4th Pool K vs 4th Pool L</td></tr><tr style='height:19px;'><th id="588081356R19" style="height: 19px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 19px;">20</div></th><td class="s1">3:00pm-3:30pm</td><td class="s21"></td><td class="s21"></td><td class="s4">SG 5th Pool I vs 5th Pool J</td><td class="s4">SG 5th Pool K vs 5th Pool L</td><td class="s5">SB 2nd Pool M vs 2nd Pool N</td></tr><tr style='height:20px;'><th id="588081356R20" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">21</div></th><td class="s8">3:30pm-4pm</td><td class="s22 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">SB FINAL Winner game 145 vs Winner game 146</div></td><td class="s23 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">SG FINAL Winner game 155 vs Winner game 156</div></td><td class="s5">SB 2nd Pool O vs 2nd Pool P</td><td class="s5">SB 3rd Pool M vs 3rd Pool N</td><td class="s5">SB 3rd Pool O vs 3rd Pool P</td></tr><tr style='height:20px;'><th id="588081356R21" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">22</div></th><td class="s1">4pm-4:20pm</td><td class="s1"></td><td class="s1"></td><td class="s5">SB 4th Pool M vs 4th Pool N</td><td class="s5">SB 4th Pool O vs 4th Pool P</td><td class="s5">SB 5th Pool M vs 5th Pool N</td></tr><tr style='height:20px;'><th id="588081356R22" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">23</div></th><td class="s1">4:20pm-4:40pm</td><td class="s24"></td><td class="s1"> </td><td class="s6">SB 5th Pool O vs 5th Pool P</td><td class="s25 softmerge"><div class="softmerge-inner" style="width: 234px; left: -3px;">SG Bronze Loser game 155 vs Loser game 156</div></td><td class="s26 softmerge"><div class="softmerge-inner" style="width: 295px; left: -3px;">SB Bronze Loser game 145 vs Loser game 146</div></td></tr><tr style='height:20px;'><th id="588081356R23" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px;">24</div></th><td class="s1">4:40pm-5pm</td><td class="s27"></td><td class="s24"></td><td class="s1"></td><td class="s24"></td><td class="s24"></td></tr></tbody></table></div>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="resources/sheet.css">
+<style type="text/css">
+  .ritz .waffle a {
+    color: inherit;
+  }
+
+  .ritz .waffle .s11 {
+    border-left: none;
+    border-right: none;
+    background-color: #9cc2e5;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s3 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 16pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s16 {
+    border-right: none;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 9pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s27 {
+    border-right: 1px SOLID #000000;
+    background-color: #ffffff;
+  }
+
+  .ritz .waffle .s6 {
+    border-right: none;
+    background-color: #9cc2e5;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s5 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    background-color: #9cc2e5;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s4 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    background-color: #ff0000;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s13 {
+    border-left: none;
+    border-right: none;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 9pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s2 {
+    border-bottom: 2px SOLID #000000;
+    border-right: 2px SOLID #000000;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 16pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s19 {
+    border-left: none;
+    border-right: none;
+    background-color: #ed7d31;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s21 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s22 {
+    border-left: none;
+    border-right: none;
+    background-color: #9cc2e5;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s0 {
+    border-bottom: 2px SOLID #000000;
+    border-right: 2px SOLID #000000;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 18pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s18 {
+    border-left: none;
+    border-right: none;
+    background-color: #ff0000;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s17 {
+    border-right: none;
+    background-color: #ffc000;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 9pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s25 {
+    border-left: none;
+    border-right: none;
+    background-color: #ff0000;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s14 {
+    border-left: none;
+    border-right: none;
+    background-color: #ffc000;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s20 {
+    border-left: none;
+    border-right: none;
+    background-color: #ed7d31;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 9pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s1 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s8 {
+    border-right: none;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s15 {
+    border-left: none;
+    border-right: none;
+    background-color: #ffc000;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 9pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s24 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s7 {
+    border-left: none;
+    border-right: none;
+    background-color: #ffc000;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s23 {
+    border-left: none;
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s10 {
+    border-left: none;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s12 {
+    border-left: none;
+    border-right: none;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s26 {
+    border-left: none;
+    border-right: none;
+    background-color: #9cc2e5;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+
+  .ritz .waffle .s9 {
+    border-left: none;
+    border-right: none;
+    background-color: #ed7d31;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Calibri', Arial;
+    font-size: 11pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 0px 3px 0px 3px;
+  }
+</style>
+<div class="ritz grid-container" dir="ltr">
+  <table class="waffle" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr>
+        <th class="row-header freezebar-origin-ltr"></th>
+        <th id="588081356C0" style="width:144px" class="column-headers-background">A</th>
+        <th id="588081356C1" style="width:235px" class="column-headers-background">B</th>
+        <th id="588081356C2" style="width:235px" class="column-headers-background">C</th>
+        <th id="588081356C3" style="width:243px" class="column-headers-background">D</th>
+        <th id="588081356C4" style="width:235px" class="column-headers-background">E</th>
+        <th id="588081356C5" style="width:235px" class="column-headers-background">F</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style='height:19px;'>
+        <th id="588081356R0" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">1</div>
+        </th>
+        <td class="s0" dir="ltr" colspan="6">CLEARWATER CUP - HIGH SCHOOL 7&#39;S TOURNAMENT - SATURDAY, MAY 11, 2019</td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R1" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">2</div>
+        </th>
+        <td class="s1">TIME</td>
+        <td class="s2">FIELD 1</td>
+        <td class="s3">FIELD 2</td>
+        <td class="s3">FIELD 3</td>
+        <td class="s3">FIELD 4</td>
+        <td class="s3">FIELD 5</td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R2" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">3</div>
+        </th>
+        <td class="s1">9am - 9:20am</td>
+        <td class="s4">SG 1 vs SG 5</td>
+        <td class="s4">SG 3 vs SG 4</td>
+        <td class="s4">SG 6 vs SG 10</td>
+        <td class="s4">SG 8 vs SG 9 </td>
+        <td class="s4">SG 11 vs SG 15</td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R3" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">4</div>
+        </th>
+        <td class="s1">9:20am-9:40am</td>
+        <td class="s4">SG 13 vs SG 14</td>
+        <td class="s4">SG 16 vs SG 20</td>
+        <td class="s4">SG 18 vs SG 19</td>
+        <td class="s5">SB 2 vs SB 4</td>
+        <td class="s5">SB 3 vs SB 5</td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R4" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">5</div>
+        </th>
+        <td class="s1">9:40am-10am</td>
+        <td class="s5">SB 7 vs SB 9</td>
+        <td class="s5">SB 8 vs SB 10</td>
+        <td class="s5">SB 12 vs SB 14 </td>
+        <td class="s5">SB 13 vs SB 15</td>
+        <td class="s5">SB 17 vs SB 19</td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R5" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">6</div>
+        </th>
+        <td class="s1">10am-10:20am</td>
+        <td class="s6">SB 18 vs SB 20</td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JB 1st Pool E vs 1st Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 121)</span></div>
+        </td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 242px; left: -3px;">JB 1st Pool E vs 1st Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 122)</span></div>
+        </td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JB 1st Pool E vs 1st Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 123)</span></div>
+        </td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JB 1st Pool E vs 1st Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 124)</span></div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R6" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">7</div>
+        </th>
+        <td class="s8">10:20am-10:40am</td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 125)</span></div>
+        </td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 126)</span></div>
+        </td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 242px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 127)</span></div>
+        </td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 128)</span></div>
+        </td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JB 3rd Pool E vs 3rd Pool F <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;"> (game 129)</span></div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R7" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">8</div>
+        </th>
+        <td class="s8">10:40am-11am</td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 130)</span></div>
+        </td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 131)</span></div>
+        </td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 242px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 132)</span></div>
+        </td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 133)</span></div>
+        </td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JG 1st Pool C vs 1st Pool D <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 134)</span></div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R8" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">9</div>
+        </th>
+        <td class="s8">11am-11:20am</td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 135)</span></div>
+        </td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 136)</span></div>
+        </td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 242px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 137)</span></div>
+        </td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 138)</span></div>
+        </td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JG 4th Pool A vs 4th Pool B <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 139)</span></div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R9" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">10</div>
+        </th>
+        <td class="s10 softmerge">
+          <div class="softmerge-inner" style="width: 146px; left: -6px;">11:20am- 11:40am</div>
+        </td>
+        <td class="s4">SG 8 vs SG 10</td>
+        <td class="s4">SG 12 vs SG 14</td>
+        <td class="s4">SG 13 vs SG 15</td>
+        <td class="s4">SG 17 vs SG 19</td>
+        <td class="s4">SG 18 vs SG 20</td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R10" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">11</div>
+        </th>
+        <td class="s1">12noon-12:20pm</td>
+        <td class="s1"></td>
+        <td class="s8"></td>
+        <td class="s11 softmerge">
+          <div class="softmerge-inner" style="width: 271px; left: -32px;">SB 1st Pool M vs SB 1st Pool N <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 146)</span></div>
+        </td>
+        <td class="s11 softmerge">
+          <div class="softmerge-inner" style="width: 470px; left: -3px;">SB 1st Pool O vs 1st Pool P <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 147)</span></div>
+        </td>
+        <td class="s10"></td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R11" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">12</div>
+        </th>
+        <td class="s12 softmerge">
+          <div class="softmerge-inner" style="width: 382px; left: -6px;">12:20pm- 12:40pm</div>
+        </td>
+        <td class="s10"></td>
+        <td class="s13"></td>
+        <td class="s14 softmerge">
+          <div class="softmerge-inner" style="width: 273px; left: -34px;">JB FINAL Winner game 121 vs Winner game122</div>
+        </td>
+        <td class="s15 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JB Loser game 123 vs Loser Game 124</div>
+        </td>
+        <td class="s14 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JB BRONZE Loser game 121 vs Loser game 122</div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R12" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">13</div>
+        </th>
+        <td class="s1">12:40pm -1:00pm</td>
+        <td class="s1"></td>
+        <td class="s16"></td>
+        <td class="s7 softmerge">
+          <div class="softmerge-inner" style="width: 252px; left: -13px;">JB <span style="font-size:9pt;font-family:Calibri,Arial;color:#000000;">Winner game 123 vs Winner game 124</span></div>
+        </td>
+        <td class="s15 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JB Winner game 127 vs Winner game 128</div>
+        </td>
+        <td class="s15 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JB Winner game 125 vs Winner game 126</div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R13" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">14</div>
+        </th>
+        <td class="s1">1:00pm-1:20pm</td>
+        <td class="s1"></td>
+        <td class="s1"></td>
+        <td class="s17">JB Loser game 125 vs Loser game 126</td>
+        <td class="s9 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG Loser game 135 vs Loser game 136</div>
+        </td>
+        <td class="s15 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JB Loser game 127 vs Loser game 128</div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R14" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">15</div>
+        </th>
+        <td class="s1">1:20pm-1:40pm</td>
+        <td class="s1"></td>
+        <td class="s8"></td>
+        <td class="s18 softmerge">
+          <div class="softmerge-inner" style="width: 251px; left: -12px;">SG 1st Pool I vs 1st Pool J <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 155)</span></div>
+        </td>
+        <td class="s18 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">SG 1st Pool I vs 1st Pool J <span style="font-size:8pt;font-family:Calibri,Arial;color:#000000;">(game 156)</span></div>
+        </td>
+        <td class="s19 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JG BRONZE Loser game 129 vs Loser Game 130</div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R15" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">16</div>
+        </th>
+        <td class="s1">1:40pm-2pm</td>
+        <td class="s1"></td>
+        <td class="s8"> </td>
+        <td class="s19 softmerge">
+          <div class="softmerge-inner" style="width: 242px; left: -3px;">JG Final Winner game 129 vs Winner Game 130</div>
+        </td>
+        <td class="s20 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG Winner game 131 vs Winner game 132</div>
+        </td>
+        <td class="s20 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JG Loser game 131 vs Loser game 132</div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R16" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">17</div>
+        </th>
+        <td class="s1">2pm-2:20pm</td>
+        <td class="s1"></td>
+        <td class="s8"></td>
+        <td class="s20 softmerge">
+          <div class="softmerge-inner" style="width: 251px; left: -12px;">JG Winner game 133 vs Winner game 134</div>
+        </td>
+        <td class="s20 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">JG Loser game 133 vs Loser game 134</div>
+        </td>
+        <td class="s20 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">JG Winner game 135 vs Winner game 136</div>
+        </td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R17" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">18</div>
+        </th>
+        <td class="s1">2:20pm - 2:40pm</td>
+        <td class="s1"></td>
+        <td class="s1"></td>
+        <td class="s4">SG 2nd Pool I vs 2nd Pool J</td>
+        <td class="s4">SG 2nd Pool K vs 2nd Pool L</td>
+        <td class="s4">SG 3rd Pool I vs 3rd Pool J</td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R18" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">19</div>
+        </th>
+        <td class="s1">2:40-3pm</td>
+        <td class="s1"></td>
+        <td class="s1"></td>
+        <td class="s4">SG 3rd Pool K vs 3rd Pool L</td>
+        <td class="s4">SG 4th Pool I vs 4th Pool J</td>
+        <td class="s4">SG 4th Pool K vs 4th Pool L</td>
+      </tr>
+      <tr style='height:19px;'>
+        <th id="588081356R19" style="height: 19px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 19px;">20</div>
+        </th>
+        <td class="s1">3:00pm-3:30pm</td>
+        <td class="s21"></td>
+        <td class="s21"></td>
+        <td class="s4">SG 5th Pool I vs 5th Pool J</td>
+        <td class="s4">SG 5th Pool K vs 5th Pool L</td>
+        <td class="s5">SB 2nd Pool M vs 2nd Pool N</td>
+      </tr>
+      <tr style='height:20px;'>
+        <th id="588081356R20" style="height: 20px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 20px;">21</div>
+        </th>
+        <td class="s8">3:30pm-4pm</td>
+        <td class="s22 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">SB FINAL Winner game 145 vs Winner game 146</div>
+        </td>
+        <td class="s23 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">SG FINAL Winner game 155 vs Winner game 156</div>
+        </td>
+        <td class="s5">SB 2nd Pool O vs 2nd Pool P</td>
+        <td class="s5">SB 3rd Pool M vs 3rd Pool N</td>
+        <td class="s5">SB 3rd Pool O vs 3rd Pool P</td>
+      </tr>
+      <tr style='height:20px;'>
+        <th id="588081356R21" style="height: 20px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 20px;">22</div>
+        </th>
+        <td class="s1">4pm-4:20pm</td>
+        <td class="s1"></td>
+        <td class="s1"></td>
+        <td class="s5">SB 4th Pool M vs 4th Pool N</td>
+        <td class="s5">SB 4th Pool O vs 4th Pool P</td>
+        <td class="s5">SB 5th Pool M vs 5th Pool N</td>
+      </tr>
+      <tr style='height:20px;'>
+        <th id="588081356R22" style="height: 20px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 20px;">23</div>
+        </th>
+        <td class="s1">4:20pm-4:40pm</td>
+        <td class="s24"></td>
+        <td class="s1"> </td>
+        <td class="s6">SB 5th Pool O vs 5th Pool P</td>
+        <td class="s25 softmerge">
+          <div class="softmerge-inner" style="width: 234px; left: -3px;">SG Bronze Loser game 155 vs Loser game 156</div>
+        </td>
+        <td class="s26 softmerge">
+          <div class="softmerge-inner" style="width: 295px; left: -3px;">SB Bronze Loser game 145 vs Loser game 146</div>
+        </td>
+      </tr>
+      <tr style='height:20px;'>
+        <th id="588081356R23" style="height: 20px;" class="row-headers-background">
+          <div class="row-header-wrapper" style="line-height: 20px;">24</div>
+        </th>
+        <td class="s1">4:40pm-5pm</td>
+        <td class="s27"></td>
+        <td class="s24"></td>
+        <td class="s1"></td>
+        <td class="s24"></td>
+        <td class="s24"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <script type='text/javascript' nonce='Efs0t5K8qIDsrkyafW8iDg'>
-function posObj(sheet, id, row, col, x, y) {
-  var rtl = false;
-  var sheetElement = document.getElementById(sheet);
-  if (!sheetElement) {
-    sheetElement = document.getElementById(sheet + '-grid-container');
-  }
-  if (sheetElement) {
-    rtl = sheetElement.getAttribute('dir') == 'rtl';
-  }
-  var r = document.getElementById(sheet+'R'+row);
-  var c = document.getElementById(sheet+'C'+col);
-  if (r && c) {
-    var objElement = document.getElementById(id);
-    var s = objElement.style;
-    var t = y;
-    while (r && r != sheetElement) {
-      t += r.offsetTop;
-      r = r.offsetParent;
+  function posObj(sheet, id, row, col, x, y) {
+    var rtl = false;
+    var sheetElement = document.getElementById(sheet);
+    if (!sheetElement) {
+      sheetElement = document.getElementById(sheet + '-grid-container');
     }
-    var offsetX = x;
-    while (c && c != sheetElement) {
-      offsetX += c.offsetLeft;
-      c = c.offsetParent;
+    if (sheetElement) {
+      rtl = sheetElement.getAttribute('dir') == 'rtl';
     }
-    if (rtl) {
-      offsetX -= objElement.offsetWidth;
+    var r = document.getElementById(sheet + 'R' + row);
+    var c = document.getElementById(sheet + 'C' + col);
+    if (r && c) {
+      var objElement = document.getElementById(id);
+      var s = objElement.style;
+      var t = y;
+      while (r && r != sheetElement) {
+        t += r.offsetTop;
+        r = r.offsetParent;
+      }
+      var offsetX = x;
+      while (c && c != sheetElement) {
+        offsetX += c.offsetLeft;
+        c = c.offsetParent;
+      }
+      if (rtl) {
+        offsetX -= objElement.offsetWidth;
+      }
+      s.left = offsetX + 'px';
+      s.top = t + 'px';
+      s.display = 'block';
+      s.border = '1px solid #000000';
     }
-    s.left = offsetX + 'px';
-    s.top = t + 'px';
-    s.display = 'block';
-    s.border = '1px solid #000000';
-  }
-};
-function posObjs() {
-};
-posObjs();</script>
+  };
+
+  function posObjs() {};
+  posObjs();
+</script>

@@ -24,10 +24,12 @@ function myFunction() {
 
     saveButton.addEventListener("click", function () {
         const textToSave = inputTextField.value;
-        console.log("Saving " + textToSave + " to Firestore");
-        docRef.set({
-            gameScore: textToSave
-        }).then(function () {
+        var gameScore = 'TODO';
+        var gameData = {
+          gameScore: textToSave
+        };
+        console.log("Saving " + gameData + " to Firestore");
+        docRef.set(gameData).then(function () {
             console.log("Status saved!");
             // DEBUGGING
         }).catch(function (error) {
