@@ -24,9 +24,15 @@ function myFunction() {
 
     saveButton.addEventListener("click", function () {
         const textToSave = inputTextField.value;
-        var gameScore = 'TODO';
+        var e = document.getElementById("gameDivision");
+        var d = e.options[e.selectedIndex].text;
+        var g = document.getElementById("divTeam");
+        var i = g.options[g.selectedIndex].text;
+        var h = document.getElementById("service");
+        var l = h.options[h.selectedIndex].text;
+        var gameScore = d + " " + i + " vs " d + " " + l;
         var gameData = {
-          gameScore: textToSave
+          [gameScore]: textToSave
         };
         console.log("Saving " + gameData + " to Firestore");
         docRef.set(gameData).then(function () {
