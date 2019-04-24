@@ -36,9 +36,10 @@ function myFunction() {
   console.log("Saving " + gameData + " to Firestore");
   docRef.update(gameData).then(function() {
     // DEBUGGING
-    console.log("Status saved!");
     alert("Success!");
+    console.log("Status saved!");
   }).catch(function(error) {
+    alert("Error: ", error);
     console.log("Got an error: ", error);
   });
 }
