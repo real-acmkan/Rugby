@@ -32576,13 +32576,13 @@ a.docs-bubble-link-disabled {
 }
 
 .waffle-assistant-thumbs-down-icon {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -150px 0;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -150px 0;
 	height: 24px;
 	width: 24px
 }
 
 .waffle-assistant-thumbs-up-icon {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -113px -46px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -113px -46px;
 	height: 24px;
 	width: 24px
 }
@@ -33232,7 +33232,7 @@ a.docs-bubble-link-disabled {
 }
 
 .waffle-assistant-pie-icon {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -501px 0;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -501px 0;
 	display: inline-block;
 	height: 24px;
 	margin-right: 10px;
@@ -35660,13 +35660,13 @@ a.waffle-blameview-image-link {
 }
 
 .freezebar-origin-ltr {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -205px 0;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -205px 0;
 	left: 0px;
 	border-width: 0 1px 1px 0
 }
 
 .freezebar-origin-rtl {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -305px -62px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -305px -62px;
 	right: 0px;
 	border-width: 0 0 1px 1px
 }
@@ -36054,7 +36054,7 @@ div.addRowsText {
 }
 
 .waffle-hyperlink-icon-visited:after {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -565px -12px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -565px -12px;
 	cursor: pointer;
 	width: 12px;
 	height: 12px;
@@ -36066,7 +36066,7 @@ div.addRowsText {
 }
 
 .waffle-hyperlink-icon:after {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -70px -24px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -70px -24px;
 	cursor: pointer;
 	width: 12px;
 	height: 12px;
@@ -36111,7 +36111,7 @@ a.waffle-hyperlink-tooltip-link {
 }
 
 .waffle-column-menu-button {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -168px -43px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -168px -43px;
 	cursor: pointer;
 	list-style: none;
 	width: 12px;
@@ -36124,7 +36124,7 @@ a.waffle-hyperlink-tooltip-link {
 .waffle-column-menu-button-hover,
 .waffle-column-menu-button-checked,
 .waffle-column-menu-button-focused {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -83px -34px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -83px -34px
 }
 
 .waffle-column-menu-button-disabled {
@@ -38320,7 +38320,7 @@ a.waffle-rich-text-link {
 }
 
 .docs-sheet-button-icon {
-	background: url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") no-repeat;
+	background: url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") no-repeat;
 	margin: 2px
 }
 
@@ -46311,7 +46311,7 @@ body[dir="rtl"] .docs-ml-arrow-back-dir {
 }
 
 .waffle-filterbox-input-icon {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -205px -62px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -205px -62px;
 	display: inline-block;
 	margin-top: 2px;
 	height: 12px;
@@ -46323,7 +46323,7 @@ body[dir="rtl"] .docs-ml-arrow-back-dir {
 }
 
 div.waffle-filterbox-label-icon {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -283px -73px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -283px -73px;
 	float: right;
 	height: 16px;
 	margin-left: 18px;
@@ -46374,7 +46374,7 @@ div.waffle-filterbox-label-icon {
 }
 
 .filtered-incelldropdown-button {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -791px -13px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -791px -13px;
 	cursor: pointer;
 	list-style: none;
 	outline: none
@@ -46389,7 +46389,7 @@ div.waffle-filterbox-label-icon {
 .filtered-incelldropdown-button-hover,
 .filtered-incelldropdown-button-checked,
 .filtered-incelldropdown-button-focused {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -137px -46px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -137px -46px
 }
 
 .waffle-autovis-lightbox {
@@ -50809,11 +50809,11 @@ th.freezebar-cell {
 }
 
 th.freezebar-origin-rtl {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -305px -62px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -305px -62px
 }
 
 th.freezebar-origin-ltr {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -205px 0
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -205px 0
 }
 
 th.freezebar-origin-ltr,
@@ -52094,7 +52094,7 @@ th.frozen-row-cell {
 }
 
 .scroll-container::-webkit-scrollbar-button:horizontal:increment {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -663px -13px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -663px -13px;
 	width: 15px;
 	padding-left: 1px;
 	background-clip: border-box;
@@ -52105,55 +52105,55 @@ th.frozen-row-cell {
 }
 
 .scroll-container::-webkit-scrollbar-button:horizontal:increment:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -395px -62px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -395px -62px
 }
 
 .scroll-container::-webkit-scrollbar-button:horizontal:increment:active {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -679px -13px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -679px -13px
 }
 
 .scroll-container::-webkit-scrollbar-button:horizontal:decrement {
 	border-left: 1px solid #d9d9d9;
 	border-right: 1px solid #d9d9d9;
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -283px -62px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -283px -62px;
 	width: 17px
 }
 
 .scroll-container::-webkit-scrollbar-button:horizontal:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -145px -70px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -145px -70px
 }
 
 .scroll-container::-webkit-scrollbar-button:horizontal:active {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -552px 0
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -552px 0
 }
 
 .scroll-container::-webkit-scrollbar-button:vertical:increment {
 	padding-top: 1px;
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -531px -24px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -531px -24px;
 	height: 15px
 }
 
 .scroll-container::-webkit-scrollbar-button:vertical:increment:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -570px -42px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -570px -42px
 }
 
 .scroll-container::-webkit-scrollbar-button:vertical:increment:active {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -83px -46px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -83px -46px
 }
 
 .scroll-container::-webkit-scrollbar-button:vertical:decrement {
 	border-top: 1px solid #d9d9d9;
 	border-bottom: 1px solid #d9d9d9;
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -631px -27px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -631px -27px;
 	height: 17px
 }
 
 .scroll-container::-webkit-scrollbar-button:vertical:decrement:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -180px -58px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -180px -58px
 }
 
 .scroll-container::-webkit-scrollbar-button:vertical:decrement:active {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -776px -28px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -776px -28px
 }
 
 .scroll-container::-webkit-scrollbar-track:vertical {
@@ -52299,7 +52299,7 @@ th.frozen-row-cell {
 }
 
 .native-scrollbar::-webkit-scrollbar-button:horizontal:increment {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -663px -13px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -663px -13px;
 	width: 15px;
 	padding-left: 1px;
 	background-clip: border-box;
@@ -52310,55 +52310,55 @@ th.frozen-row-cell {
 }
 
 .native-scrollbar::-webkit-scrollbar-button:horizontal:increment:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -395px -62px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -395px -62px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:horizontal:increment:active {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -679px -13px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -679px -13px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:horizontal:decrement {
 	border-left: 1px solid #d9d9d9;
 	border-right: 1px solid #d9d9d9;
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -283px -62px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -283px -62px;
 	width: 17px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:horizontal:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -145px -70px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -145px -70px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:horizontal:active {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -552px 0
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -552px 0
 }
 
 .native-scrollbar::-webkit-scrollbar-button:vertical:increment {
 	padding-top: 1px;
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -531px -24px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -531px -24px;
 	height: 15px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:vertical:increment:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -570px -42px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -570px -42px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:vertical:increment:active {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -83px -46px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -83px -46px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:vertical:decrement {
 	border-top: 1px solid #d9d9d9;
 	border-bottom: 1px solid #d9d9d9;
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -631px -27px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -631px -27px;
 	height: 17px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:vertical:decrement:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -180px -58px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -180px -58px
 }
 
 .native-scrollbar::-webkit-scrollbar-button:vertical:decrement:active {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -776px -28px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -776px -28px
 }
 
 .docs-gm-sidebars .native-scrollbar::-webkit-scrollbar-track {
@@ -54361,7 +54361,7 @@ th.waffle-docos-target-cell-header {
 }
 
 .waffle-obj-menu-open {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -763px -13px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -763px -13px;
 	border: none;
 	color: #15c;
 	float: right;
@@ -54374,7 +54374,7 @@ th.waffle-docos-target-cell-header {
 
 .waffle-obj-menu-open-active,
 .waffle-obj-menu-open:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -618px -27px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -618px -27px
 }
 
 .waffle-obj-message-div {
@@ -54579,7 +54579,7 @@ a.waffle-charts-alert-link-close {
 }
 
 .waffle-obj-menu-button {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -763px -13px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -763px -13px;
 	cursor: pointer;
 	height: 13px;
 	width: 13px
@@ -54587,7 +54587,7 @@ a.waffle-charts-alert-link-close {
 
 .waffle-obj-menu-button.waffle-obj-menu-control-active,
 .waffle-obj-menu-button:hover {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -618px -27px
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -618px -27px
 }
 
 .waffle-obj-menu-control-material {
@@ -55693,7 +55693,7 @@ div.formula-bar-disabled {
 }
 
 .waffle-conditionalformat-add-rule-icon {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -83px -24px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -83px -24px;
 	height: 10px;
 	position: absolute;
 	right: 15px;
@@ -55702,7 +55702,7 @@ div.formula-bar-disabled {
 }
 
 .waffle-conditionalformat-add-another-rule-icon {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -552px -42px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -552px -42px;
 	height: 18px;
 	position: absolute;
 	right: 18px;
@@ -55750,7 +55750,7 @@ div.formula-bar-disabled {
 }
 
 .waffle-conditionalformat-drag-handle-icon {
-	background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -716px -17px;
+	background: no-repeat url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -716px -17px;
 	height: 18px;
 	left: 4px;
 	position: absolute;
@@ -56959,11 +56959,11 @@ div.formula-bar-disabled {
 }
 
 .waffle-named-ranges-promo-lock:before {
-	content: url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png")
+	content: url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png")
 }
 
 .waffle-named-ranges-promo-lock {
-	background: url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png");
+	background: url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png");
 	left: -618px;
 	opacity: .60;
 	position: relative;
@@ -57308,11 +57308,11 @@ div.formula-bar-disabled {
 }
 
 .waffle-ritz-protection-promo-lock:before {
-	content: url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png")
+	content: url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png")
 }
 
 .waffle-ritz-protection-promo-lock {
-	background: url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png");
+	background: url("https://ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png");
 	left: -618px;
 	opacity: .60;
 	position: relative;

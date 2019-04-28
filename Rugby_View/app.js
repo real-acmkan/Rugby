@@ -16,25 +16,43 @@ function myFunction() {
   var firestore = firebase.firestore();
   // End of Firebase Initialization
 
+  //Get date to pull games by day
+  var date = new Date();
+  var time = date.getDate();
+
+  //Document location
   var docRef = firestore.doc("samples/gameData");
 
+  if (time == "11") {
+    var docRef = firestore.doc("samples/gameData2");
+  }
+
+  //use get() to pull document data once
   docRef.get().then(function(doc) {
     if (doc.exists) {
+      //debugging
       console.log("Document data: ", doc.data());
+
     } else {
+      alert("Certain scores may not exist yet!");
       console.log("Content does not exist");
     }
   }).catch(function(error) {
+    //more debugging
+    alert("An error occured: ", error);
     console.log("Error: ", error);
   });
-
-  getRealtimeUpdates = function() {
-    docRef.onSnapshot(function (doc) {
+  //Initialize realtime listener to avoid refreshing
+  //USES A TON OF READS
+  var getRealtimeUpdates = function() {
+    docRef.onSnapshot(function(doc) {
       if (doc && doc.exists) {
         var myData = doc.data();
         console.log(myData);
       }
     });
   }
-  getRealtimeUpdates();
+  //call function getRealtimeUpdates
+  //NOTE: USES A TON OF READS
+  //getRealtimeUpdates();
 }

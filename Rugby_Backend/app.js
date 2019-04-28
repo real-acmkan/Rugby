@@ -16,11 +16,19 @@ function myFunction() {
   var firestore = firebase.firestore();
   // End of Firebase Initialization
 
+  //Get date to sort games
+  var date = new Date();
+  var time = date.getDate();
+
 
   var docRef = firestore.doc("samples/gameData");
   const outputHeader = document.querySelector("#gameScore");
   const inputTextField = document.querySelector("#lastestGameScore");
   const saveButton = document.querySelector("#saveButton");
+
+  if (time == "11")  {
+    var docRef = firestore.doc("samples/gameData2");
+  }
 
   const textToSave = inputTextField.value;
   var e = document.getElementById("gameDivision");
