@@ -32,6 +32,7 @@ function myFunction() {
     if (doc.exists) {
       //debugging
       console.log("Document data: ", doc.data());
+      document.getElementById('SB 1 vs SB 4').innerHTML = '9-0';
 
     } else {
       alert("Certain scores may not exist yet!");
@@ -42,17 +43,24 @@ function myFunction() {
     alert("An error occured: ", error);
     console.log("Error: ", error);
   });
+
+  //docRef.get().then((snapshot) => {
+    //snapshot.docs.forEach(doc => {
+      //console.log("Document data: ", doc.data());
+      //document.getElementById('SB 1 vs SB 4').innerHTML = '9-0'
+    //})
+  //})
   //Initialize realtime listener to avoid refreshing
   //USES A TON OF READS
-  var getRealtimeUpdates = function() {
-    docRef.onSnapshot(function(doc) {
-      if (doc && doc.exists) {
-        var myData = doc.data();
-        console.log(myData);
-      }
-    });
-  }
-  //call function getRealtimeUpdates
+  //var getRealtimeUpdates = function() {
+    //docRef.onSnapshot(function(doc) {
+      //if (doc && doc.exists) {
+        //var myData = doc.data();
+        //console.log(myData);
+      //}
+    //});
+  //}
+  //  call function getRealtimeUpdates
   //NOTE: USES A TON OF READS
   //getRealtimeUpdates();
 }
