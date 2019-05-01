@@ -1,3 +1,4 @@
 Ideas:
-- test snapshot and change doc to collections
-- use doc.data().gameIDhere + formatting to load games into table
+- Replace firestore with realtime database
+- Fix app.js and app2.js
+- Fix JSON and parse. RIP BRAIN

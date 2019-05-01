@@ -13,7 +13,7 @@ function myFunction() {
     firebase.initializeApp(config);
   }
   //firebase.initializeApp(config);
-  var firestore = firebase.firestore();
+  var docRef = firebase.database().ref("gameData");
   // End of Firebase Initialization
 
   //Get date to sort games
@@ -21,13 +21,12 @@ function myFunction() {
   var time = date.getDate();
 
 
-  var docRef = firestore.doc("samples/gameData");
   const outputHeader = document.querySelector("#gameScore");
   const inputTextField = document.querySelector("#lastestGameScore");
   const saveButton = document.querySelector("#saveButton");
 
   if (time == "11")  {
-    var docRef = firestore.doc("samples/gameData2");
+    var docRef = firebase.database().ref("gameData2");
   }
 
   const textToSave = inputTextField.value;
