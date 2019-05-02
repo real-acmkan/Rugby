@@ -13,12 +13,11 @@ function myFunction() {
     firebase.initializeApp(config);
   }
   //firebase.initializeApp(config);
-  var docRef = firebase.database().ref("uid");
   // End of Firebase Initialization
 
   //Get date to sort games
   var date = new Date();
-  var time = date.getDate();
+  var n = date.getDate();
 
 
   const outputHeader = document.querySelector("#gameScore");
@@ -26,7 +25,7 @@ function myFunction() {
   const saveButton = document.querySelector("#saveButton");
 
   if (time == "11")  {
-    var docRef = firebase.database().ref("uid2");
+    var docRef = firebase.database().ref().child("gameData2");
   }
 
   const textToSave = inputTextField.value;
@@ -36,10 +35,11 @@ function myFunction() {
   var i = g.options[g.selectedIndex].text;
   var h = document.getElementById("service");
   var l = h.options[h.selectedIndex].text;
-  var gameScore = "May " + time + " " + d + " " + i + " vs " + d + " " + l;
+  var gameScore = "May " + n + " " + d + " " + i + " vs " + d + " " + l;
   var gameData = {
     [gameScore]: textToSave
   };
+  var docRef = firebase.database().ref("gameData/" + gameScore);
   console.log("Saving " + gameData + " to Firestore");
   docRef.update(gameData).then(function() {
     // DEBUGGING

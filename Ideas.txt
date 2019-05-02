@@ -1,5 +1,6 @@
 Ideas:
-- Replace reference from gameData to uid
+- Change save locations to gameScore and create uid and score (create JSON tree and include gameScore)
+https://www.tutorialspoint.com/firebase/firebase_write_data.htm
 - Fix app.js and app2.js
 - Fix JSON and parse. RIP BRAIN
 
