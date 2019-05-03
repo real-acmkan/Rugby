@@ -15,22 +15,18 @@ function myFunction() {
   //firebase.initializeApp(config);
   // End of Firebase Initialization
 
-  // Get date to pull games by day
-  var date = new Date();
-  var time = date.getDate();
-
   // Data location
   var docRef = firebase.database().ref("gameData");
-  // Use this to seperate the days of the tournament
-  if (time == "11") {
-    var docRef = firebase.database().ref("gameData2");
-  }
 
-  // Get realtime data and sync object changes
-  docRef.on("value", snap => {
-    // DEBUGGING: console.log(snap.val()));
-    var data = snap.val();
-    JSON.parse(data);
-    // DO STUFF
-  }
+  // Get realtime data and sync changes through event type "child_added"
+  docRef.on("child_added", function(data) {
+    var content = data.val();
+    document.getElementById(content.uid).innerHTML = content.score;
+  });
+
+  // Get realtime data and sync changes through event type "child_changed"
+  docRef.on("child_changed", function(data) {
+    var updated = data.val();
+    document.getElementById(updated.uid).innerHTML = updated.score;
+  });
 }

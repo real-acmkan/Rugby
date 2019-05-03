@@ -19,14 +19,9 @@ function myFunction() {
   var date = new Date();
   var n = date.getDate();
 
-
   const outputHeader = document.querySelector("#gameScore");
   const inputTextField = document.querySelector("#lastestGameScore");
   const saveButton = document.querySelector("#saveButton");
-
-  if (time == "11")  {
-    var docRef = firebase.database().ref().child("gameData2");
-  }
 
   const textToSave = inputTextField.value;
   var e = document.getElementById("gameDivision");
@@ -39,9 +34,18 @@ function myFunction() {
   var gameData = {
     [gameScore]: textToSave
   };
-  var docRef = firebase.database().ref("gameData/" + gameScore);
+  if (n == "11") {
+    var docRef = firebase.database().ref("gameData2");
+  } else {
+    var docRef = firebase.database().ref("gameData");
+  }
   console.log("Saving " + gameData + " to Firestore");
-  docRef.update(gameData).then(function() {
+  docRef.update({
+    [gameScore]: {
+      uid: gameScore,
+      score: textToSave
+    }
+  }).then(function() {
     // DEBUGGING
     alert("Success!");
     console.log("Status saved!");
