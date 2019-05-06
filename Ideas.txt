@@ -1,24 +1,8 @@
 Ideas:
+- Add auth
 - Add timestamp
-- Create uid for each id in tables
+- Create uid for each id in May 11th
 - Perform testing
 
 https://www.tutorialspoint.com/firebase/firebase_event_types.htm
-^ The website that saved my ass
-
-<!DOCTYPE html>
-<html>
-<body>
-https://www.w3schools.com/code/tryit.asp?filename=G3M9QMVH89BZ
-<h2>Convert a string written in JSON format, into a JavaScript object.</h2>
-
-<p id="May 10 0420pm SB 6 vs SB 4"></p>
-
-<script>
-var myJSON = '{ "uid":"May 10 0420pm SB 6 vs SB 4", "score":"6-0" }';
-var myObj = JSON.parse(myJSON);
-document.getElementById(myObj.uid).innerHTML = myObj.score;
-</script>
-
-</body>
-</html>
+^ The website that saved me
