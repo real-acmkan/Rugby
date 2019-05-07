@@ -1,6 +1,5 @@
 Ideas:
 - Add auth
-- Add timestamp
 - Create uid for each id in May 11th
 - Perform testing
 

@@ -35,6 +35,10 @@ function myFunction() {
   var gameData = {
     [gameScore]: textToSave
   };
+  var o = date.getHours();
+  var a = date.getMinutes();
+  var t = date.getSeconds();
+  var timestamp = o + ":" + a + ":" + "t";
   if (n == "11") {
     var docRef = firebase.database().ref("gameData2");
   } else {
@@ -44,14 +48,15 @@ function myFunction() {
   docRef.update({
     [gameScore]: {
       uid: gameScore,
-      score: textToSave
+      score: textToSave,
+      time: timestamp
     }
   }).then(function() {
     // DEBUGGING
     alert("Success!");
     console.log("Status saved!");
   }).catch(function(error) {
-    alert("Error: ", error);
+    alert("Error. Write Permission denied.");
     console.log("Got an error: ", error);
   });
 }
