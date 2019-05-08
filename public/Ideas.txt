@@ -1,7 +1,19 @@
 Ideas:
-- Add auth
-- Create uid for each id in May 11th
+- Fix auth
 - Perform testing
+- Find a way to make this damn thing work -_-
+function isAuthenticated() {
+  firebase.auth().onAuthStateChanged(function(user) {
+    if (user) {
+      //User is signed in
+      console.log("User is authenticated");
+    } else {
+      // User is not signed in
+      window.location = "../Rugby_View/auth.html"
+    }
+  });
 
-https://www.tutorialspoint.com/firebase/firebase_event_types.htm
-^ The website that saved me
+}
+window.onload = function() {
+  isAuthenticated();
+};
