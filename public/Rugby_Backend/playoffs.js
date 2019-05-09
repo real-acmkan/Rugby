@@ -31,14 +31,18 @@ function myFunction() {
   var i = g.options[g.selectedIndex].text;
   var h = document.getElementById("service");
   var l = h.options[h.selectedIndex].text;
-  var gameScore = "May " + n + " " + d + " " + i + " vs " + d + " " + l;
+  if (i > l) {
+    var gameScore = "May " + n + " " + d + " " + l + " vs " + d + " " + i;
+  } else {
+    var gameScore = "May " + n + " " + d + " " + i + " vs " + d + " " + l;  
+  }
   var gameData = {
     [gameScore]: textToSave
   };
   var o = date.getHours();
   var a = date.getMinutes();
   var t = date.getSeconds();
-  var timestamp = o + ":" + a + ":" + "t";
+  var timestamp = o + ":" + a + ":" + t;
   var docRef = firebase.database().ref("gameData2");
   console.log("Saving " + gameData + " to Firestore");
   docRef.update({

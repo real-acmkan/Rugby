@@ -1,5 +1,5 @@
 Ideas:
-- Update May 11th and Ploffs (JB Winner game 125 vs Winner game 126)
+- Update May 11th and Ploffs ()
 - Perform testing
 - Fix auth
 - Find a way to make this damn thing work -_-
