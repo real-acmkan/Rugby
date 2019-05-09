@@ -1,20 +1,3 @@
 Ideas:
-- Update May 11th and Ploffs ()
 - Perform testing
-- Fix auth
-- Find a way to make this damn thing work -_-
-function isAuthenticated() {
-  firebase.auth().onAuthStateChanged(function(user) {
-    if (user) {
-      //User is signed in
-      console.log("User is authenticated");
-    } else {
-      // User is not signed in
-      window.location = "../Rugby_View/auth.html"
-    }
-  });
-
-}
-window.onload = function() {
-  isAuthenticated();
-};
+- Damn you chrome and your cookie protection for local files

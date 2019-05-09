@@ -25,17 +25,34 @@ function myFunction() {
   const saveButton = document.querySelector("#saveButton");
 
   const textToSave = inputTextField.value;
-  var e = document.getElementById("gameDivision");
+  var e = document.getElementById("JB");
   var d = e.options[e.selectedIndex].text;
-  var g = document.getElementById("divTeam");
+  var g = document.getElementById("JG");
   var i = g.options[g.selectedIndex].text;
   var h = document.getElementById("service");
   var l = h.options[h.selectedIndex].text;
-  if (i > l) {
-    var gameScore = "May " + n + " " + d + " " + l + " vs " + d + " " + i;
+  var u = document.getElementById("budget");
+  var m = u.options[u.selectedIndex].text;
+  var ploff = '';
+  if (d == 'Choose a game') {
+    if (i == 'Choose a game') {
+      if (l == 'Choose a game') {
+        if (m == 'Choose a game') {
+          alert("Invalid selection, cancelling submit");
+          location.reload(true);
+        } else {
+          var ploff = m;
+        }
+      } else {
+        var ploff = l;
+      }
+    } else {
+      var ploff = i;
+    }
   } else {
-    var gameScore = "May " + n + " " + d + " " + i + " vs " + d + " " + l;  
+    var ploff = d;
   }
+  var gameScore = "May " + n + " " + ploff;
   var gameData = {
     [gameScore]: textToSave
   };
