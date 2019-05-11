@@ -1,3 +1,5 @@
 Ideas:
-- Perform testing
+- Perform testing (Number function is wrong :( )
+- Check ID's
+- Fix shit for later
 - Damn you chrome and your cookie protection for local files

@@ -31,11 +31,7 @@ function myFunction() {
   var i = g.options[g.selectedIndex].text;
   var h = document.getElementById("service");
   var l = h.options[h.selectedIndex].text;
-  if (i > l) {
-    var gameScore = "May " + n + " " + d + " " + l + " vs " + d + " " + i;
-  } else {
-    var gameScore = "May " + n + " " + d + " " + i + " vs " + d + " " + l;
-  }
+  var gameScore = "May " + n + " " + d + " " + i + " vs " + d + " " + l;
   var gameData = {
     [gameScore]: textToSave
   };
