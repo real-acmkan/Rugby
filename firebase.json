@@ -3,6 +3,8 @@
     "public": "public",
     "ignore": [
       "firebase.json",
+      "README.md",
+      "LICENSE",
       "**/.*",
       "**/node_modules/**"
     ]
