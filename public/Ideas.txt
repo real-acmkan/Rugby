@@ -1,4 +1,5 @@
 Ideas:
+- Clone roomy
 - Perform testing (Number function is wrong :( )
 - Check ID's
 - Calculate Scores
