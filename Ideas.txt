@@ -1,6 +1,6 @@
 Ideas:
 - Unique Bracket page for playoffs, maybe others?? (use firebase to pull data, mimic react rendering)
-- user firebase/realtime database to display playoffname through ID (e.g. SB, JB, etc.)
+- user firebase/realtime database to display playoffname through ID
 - Update Playoffs page
 - Clone roomy //Note: 2019.10.01 (was i on crack wtf even is that??) //2019.11.12 (still no clue hah)
 - Perform testing, Number function is wrong :(

@@ -2,6 +2,7 @@
   "hosting": {
     "public": "public",
     "ignore": [
+      "Ideas.txt"
       "firebase.json",
       "README.md",
       "LICENSE",
