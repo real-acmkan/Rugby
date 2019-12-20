@@ -2,11 +2,14 @@
   "hosting": {
     "public": "public",
     "ignore": [
+      "Ideas.txt",
       "firebase.json",
       "README.md",
       "LICENSE",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "**/Rugby-Test/**",
+      ".git"
     ]
   }
 }

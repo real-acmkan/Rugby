@@ -58,6 +58,8 @@ Author URI: http://www.xpeedstudio.com
     }
     .navbar-brand {
         padding: 15px 15px;
+        width: auto;
+        height: 100%;
     }
 
 
@@ -134,9 +136,6 @@ Author URI: http://www.xpeedstudio.com
 }
 
 
-
-
-
 @media (max-width: 400px) {
 
 
@@ -151,6 +150,3 @@ Author URI: http://www.xpeedstudio.com
 
 
 }
-
-
-

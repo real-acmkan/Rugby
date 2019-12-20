@@ -1,6 +1,0 @@
-Ideas:
-- Clone roomy
-- Perform testing (Number function is wrong :( )
-- Check ID's
-- Calculate Scores
-- Damn you chrome and your cookie protection for local files
